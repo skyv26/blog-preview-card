@@ -1,16 +1,19 @@
 import { List } from "antd";
+import { useMyContext } from "../../MyContext";
 
 interface TagObj {
   tag: string;
 }
 
-const data: TagObj[] = [
-  {
-    tag: "Learning",
-  }
-];
-
 const Tags = () => {
+  const { content } = useMyContext();
+
+  const data: TagObj[] = [
+    {
+      tag: content.tag,
+    },
+  ];
+
   return (
     <div className="flex gap-2">
       {data.map((item) => (

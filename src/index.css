@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#f4d04e] grid content-center;
+  @apply bg-[#f4d04e] grid content-center h-screen;
 }
 
 @font-face {
