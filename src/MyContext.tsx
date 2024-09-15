@@ -60,12 +60,12 @@ const MyContextProvider = ({ children }: { children: ReactNode }) => {
         "These languages are the backbone of every website, defining structure, content, and presentation."
           ? "Aakash Verma, a passionate software engineer working at Byteloom.io, a fintech product-based company."
           : "These languages are the backbone of every website, defining structure, content, and presentation.",
-      avatar: prev.avatar.toLowerCase().includes("aakash")
+      avatar: prev.tag === "Learning" ? AakashImage : DefaultAvatar
         ? DefaultAvatar
         : AakashImage,
       name: prev.name === "Greg Hooper" ? "Aakash Verma" : "Greg Hooper",
       buttonText: prev.buttonText.includes("Aakash") ? 'Normal' : 'Aakash',
-      card_pic: prev.card_pic.includes('illustration') ? AakashCardPic : DefaultCardPic
+      card_pic: prev.tag === "Learning" ? AakashCardPic : DefaultCardPic
     }));
   };
 
