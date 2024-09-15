@@ -1,50 +1,136 @@
-# React + TypeScript + Vite
+<!-- TABLE OF CONTENTS -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📗 Table of Contents
 
-Currently, two official plugins are available:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- PROJECT DESCRIPTION -->
 
-## Expanding the ESLint configuration
+# 📖 Blog Preview Card <a name="about-project"></a>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+> A versatile and customizable React component designed to showcase blog posts with an attractive preview. This component includes a title, snippet of the post content, and publication date, all styled to provide a visually appealing and informative overview. Ideal for blog listing pages or any application that needs to display brief summaries of articles.
 
-- Configure the top-level `parserOptions` property like this:
+**[Blog Preview Card]** is a react component.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Built With <a name="built-with"></a>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Tech Stack <a name="tech-stack"></a>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+> Blog Preview Card is front-end min-project
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<details>
+<summary>Technologies</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://ant.design/">Ant Design</a></li>
+    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://vitejs.dev/">Vite</a></li>
+  </ul>
+</details>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to your deployed project.
+
+- [Budget App Live Link](https://skyv-budget-app.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> In order to start with this project do as follows :
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+`yarn dev`
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+`git clone https://github.com/skyv26/blog-preview-card.git`
+
+then
+
+`cd blog-preview-card`
+
+### Install
+
+Install this project with:
+
+`yarn install`
+
+### Usage
+
+`yarn dev`
+
+**it will automatically correct the errors**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👨‍💻 **Aakash Verma**
+
+- GitHub: [@skyv26](https://github.com/skyv26)
+- LinkedIn: [skyv2022](https://linkedin.com/in/skyv2022)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project then please give a ⭐️ and also share your feedback using github_issues.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
