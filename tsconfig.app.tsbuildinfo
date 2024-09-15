@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/MyContext.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/author-card/AuthorCard.tsx","./src/components/card-meta/CardMeta.tsx","./src/components/main-card/MainCard.tsx","./src/components/published-date/PublishedDate.tsx","./src/components/tags/Tags.tsx"],"version":"5.6.2"}
