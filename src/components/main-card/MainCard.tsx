@@ -26,7 +26,7 @@ const MainCard: React.FC = () => {
       onMouseLeave={handleMouseLeave}
       className="relative max-w-[380px] bg-white font-figTree text-left p-5 !rounded-2xl border border-[hsl(0,0%,7%)] flex flex-col gap-6 shadow-[8px_7px_0_0] shadow-[hsl(0,0%,7%)]"
     >
-      <Image className="rounded-xl" src={content.card_pic} />
+      <Image className="rounded-xl" src={content.card_pic} alt="card component preview" />
       <Row>
         <Col className="flex flex-col gap-4 py-1">
           <Tags />

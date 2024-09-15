@@ -15,9 +15,9 @@ const Tags = () => {
   ];
 
   return (
-    <div className="flex gap-2">
+    <ul className="flex gap-2">
       {data.map((item) => (
-        <List.Item className="list-none">
+        <List.Item key={item.tag} className="list-none">
           <div>
             <strong className="bg-[#f4d04e] text-[hsl(0,0%,7%)] font-figTree tracking-tight py-[6px] px-[14px] text-sm rounded-[4px] font-semibold">
               {item.tag}
@@ -25,7 +25,7 @@ const Tags = () => {
           </div>
         </List.Item>
       ))}
-    </div>
+    </ul>
   );
 };
 
