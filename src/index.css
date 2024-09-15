@@ -3,5 +3,19 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#f4d04e] grid content-center h-screen;
+  @apply bg-[#f4d04e] grid content-center;
+}
+
+@font-face {
+  font-family: 'FigTree';
+  src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FigTree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }

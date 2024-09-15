@@ -16,7 +16,7 @@ const Tags = () => {
       {data.map((item) => (
         <List.Item className="list-none">
           <div>
-            <strong className="bg-[#f4d04e] py-2 px-4 rounded-md font-bold">
+            <strong className="bg-[#f4d04e] text-[hsl(0,0%,7%)] font-figTree tracking-tight py-[6px] px-[14px] text-sm rounded-[4px] font-semibold">
               {item.tag}
             </strong>
           </div>
