@@ -52,7 +52,7 @@
 
 > Link to your deployed project.
 
-- [Budget App Live Link](https://skyv-budget-app.onrender.com/)
+- [Live Link](https://skyv26.github.io/blog-preview-card/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
