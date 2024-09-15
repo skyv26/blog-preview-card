@@ -7,8 +7,8 @@ const CardMeta: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-1">
-      <Title level={3} className="tracking-tight text-[hsl(0,0%,7%)]">{content.title}</Title>
-      <p className="text-base text-[hsl(0,0%,42%)]">
+      <Title level={3} className="tracking-tight font-figTree font-semibold text-[hsl(0,0%,7%)]">{content.title}</Title>
+      <p className="text-base font-figTree font-medium text-[hsl(0,0%,42%)]">
         {content.description}
       </p>
       <AuthorCard />
