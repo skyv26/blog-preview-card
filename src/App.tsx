@@ -1,9 +1,12 @@
 import './App.css'
+import MainCard from './components/main-card/MainCard'
+import OverlayImage from './design/desktop-design.jpg'
 
 export default function App() {
   return (
-    <h1 className="text-5xl text-red-300 font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <img src={OverlayImage} className='absolute left-0 top-0 w-full h-full opacity-[20%]' />
+    <MainCard />
+    </>
   )
 };
